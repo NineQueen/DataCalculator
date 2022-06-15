@@ -41,7 +41,7 @@ int main(){
             }
             if(allNum[i]!=' '){
                 cout << "error"<<endl;
-                break;
+                return 0;
             }
         }
         a = a*nagative;
